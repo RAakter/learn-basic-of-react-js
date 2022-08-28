@@ -32,8 +32,11 @@ function App() {
         {/* <Welcome name="class 2"/> */}
         {/* <Welcome name="class 3"/> */}
 
+        {/* button added for clicked on event */}
         <Button/>
         <Button/>
+
+        {/* arrow function */}
         <Arrow/>
         <Arrow/>
 
