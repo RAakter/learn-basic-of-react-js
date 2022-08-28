@@ -1,7 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
-import Hello from './mycomponents/Hello';
-import Welcome from './mycomponents/Welcome'
+import {Hello, Button} from './mycomponents/Hello';
+import Welcome from './mycomponents/Welcome';
 
 function App() {
   return (
@@ -27,7 +27,11 @@ function App() {
         <Hello name="Greetings"/>
 
         {/* class component */}
-        <Welcome/>
+        <Welcome name="class"/>
+        {/* <Welcome name="class 2"/> */}
+        {/* <Welcome name="class 3"/> */}
+
+        <Button/>
 
       </header>
     </div>
