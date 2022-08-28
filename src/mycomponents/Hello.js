@@ -1,10 +1,10 @@
 import React from 'react';
 
 
-function Hello(){
+function Hello(props){
     return(
         <div>
-            <p>Hello! I'm from functional component.</p>
+            <p>{props.name}! I'm from functional component.</p>
         </div>
     )
 }

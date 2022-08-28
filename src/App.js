@@ -22,11 +22,13 @@ function App() {
         </a>
 
         {/* functional component */}
-        <Hello />
+        <Hello name="Hi"/>
+        <Hello name="Hello"/>
+        <Hello name="Greetings"/>
 
         {/* class component */}
         <Welcome/>
-        
+
       </header>
     </div>
   );
