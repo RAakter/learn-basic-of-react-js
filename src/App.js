@@ -34,6 +34,7 @@ function App() {
 
         <Button/>
         <Arrow/>
+        <Arrow/>
 
       </header>
     </div>
