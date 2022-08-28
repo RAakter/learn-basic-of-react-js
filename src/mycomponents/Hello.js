@@ -1,4 +1,5 @@
 import React from 'react';
+import '../../node_modules/bootstrap/dist/css/bootstrap.min.css'
 
 
 function Hello(props){
@@ -12,8 +13,7 @@ function Hello(props){
 function Button(){
     return(
         <div>
-            <button type='button' style={{
-                backgroundColor: 'blue', color: 'white', borderRadius: '2px', marginBottom: '30px'}}
+            <button type='button' className="btn btn-primary mb-5"
                 onClick={clickMe.bind(this, 'clicked from function')}>Click me from Function!</button>
         </div>
     )
