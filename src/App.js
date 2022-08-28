@@ -34,10 +34,8 @@ function App() {
 
         {/* button added for clicked on event */}
         <Button/>
-        <Button/>
 
         {/* arrow function */}
-        <Arrow/>
         <Arrow/>
 
       </header>
