@@ -33,6 +33,7 @@ function App() {
         {/* <Welcome name="class 3"/> */}
 
         <Button/>
+        <Button/>
         <Arrow/>
         <Arrow/>
 
