@@ -2,6 +2,7 @@ import logo from './logo.svg';
 import './App.css';
 import {Hello, Button} from './mycomponents/Hello';
 import Welcome from './mycomponents/Welcome';
+import Arrow from './mycomponents/Arrow';
 
 function App() {
   return (
@@ -32,6 +33,7 @@ function App() {
         {/* <Welcome name="class 3"/> */}
 
         <Button/>
+        <Arrow/>
 
       </header>
     </div>
