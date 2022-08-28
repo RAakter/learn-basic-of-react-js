@@ -1,6 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
 import Hello from './mycomponents/Hello';
+import Welcome from './mycomponents/Welcome'
 
 function App() {
   return (
@@ -19,7 +20,13 @@ function App() {
         >
           Learn React
         </a>
+
+        {/* functional component */}
         <Hello />
+
+        {/* class component */}
+        <Welcome/>
+        
       </header>
     </div>
   );
