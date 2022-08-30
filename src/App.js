@@ -5,6 +5,7 @@ import Welcome from './mycomponents/Welcome';
 import Arrow from './mycomponents/Arrow';
 import State from './mycomponents/State';
 import Condition1 from './mycomponents/Condition1';
+import Refresh from './mycomponents/Refresh';
 
 function App() {
   return (
@@ -44,6 +45,7 @@ function App() {
          <State/>
 
          <Condition1/>
+         <Refresh/>
 
       </header>
     </div>
