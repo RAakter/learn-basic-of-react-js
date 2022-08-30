@@ -12,15 +12,20 @@ class Condition1 extends Component {
 
     }
 
-    changeName(name){
-       this.setState({name: name});
-    }
-
-
     render(){
-        return (
-            this.state.login? (<h1>Logout</h1>) : (<h1>Login</h1>)
-        )
+        // conditional return variable elements
+        // return (
+        //     this.state.login? (<h1>Logout</h1>) : (<h1>Login</h1>)
+        // )
+
+        // conditional return if else
+        if(this.state.login === true){
+            return (<h1>Logout</h1>);
+        }
+        else{
+            return (<h1>Login</h1>); 
+        }
+      
     }
 }
 
