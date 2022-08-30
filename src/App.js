@@ -7,6 +7,7 @@ import State from './mycomponents/State';
 import Condition1 from './mycomponents/Condition1';
 import Refresh from './mycomponents/Refresh';
 import Newdemo from './mycomponents/Newdemo';
+import Anotherdemo from './mycomponents/Anotherdemo';
 
 function App() {
   return (
@@ -48,6 +49,7 @@ function App() {
          <Condition1/>
          <Refresh/>
          <Newdemo/>
+         <Anotherdemo/>
 
       </header>
     </div>
