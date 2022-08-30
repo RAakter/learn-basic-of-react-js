@@ -11,6 +11,7 @@ class Newdemo extends Component {
         alert("I'm from Callback");
     }
     ReactDom.render(element, container, callback);
+    // ReactDom.hydrate(element, container, callback);
   }
 
 
