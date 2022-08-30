@@ -3,6 +3,7 @@ import './App.css';
 import {Hello, Button} from './mycomponents/Hello';
 import Welcome from './mycomponents/Welcome';
 import Arrow from './mycomponents/Arrow';
+import State from './mycomponents/State'
 
 function App() {
   return (
@@ -37,6 +38,9 @@ function App() {
 
         {/* arrow function */}
         <Arrow/>
+
+         {/* state function */}
+         <State/>
 
       </header>
     </div>
