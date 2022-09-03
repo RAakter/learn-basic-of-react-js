@@ -8,6 +8,7 @@ import Condition1 from './mycomponents/Condition1';
 import Refresh from './mycomponents/Refresh';
 import Newdemo from './mycomponents/Newdemo';
 import Anotherdemo from './mycomponents/Anotherdemo';
+import Form from './mycomponents/Form';
 
 function App() {
   return (
@@ -50,6 +51,9 @@ function App() {
          <Refresh/>
          <Newdemo/>
          <Anotherdemo/>
+
+         {/* form */}
+         <Form/>
 
       </header>
     </div>
