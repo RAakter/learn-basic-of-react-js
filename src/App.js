@@ -9,6 +9,7 @@ import Refresh from './mycomponents/Refresh';
 import Newdemo from './mycomponents/Newdemo';
 import Anotherdemo from './mycomponents/Anotherdemo';
 import Form from './mycomponents/Form';
+import Signup from './mycomponents/Signup';
 
 function App() {
   return (
@@ -54,6 +55,8 @@ function App() {
 
          {/* form */}
          <Form/>
+
+         <Signup/>
 
       </header>
     </div>
