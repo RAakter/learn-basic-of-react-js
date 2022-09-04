@@ -19,6 +19,19 @@ class Signup extends Component {
         this.setState({
             [inputName]: inputValue
         });
+
+        if(inputName === 'fname'){
+
+        }
+        if(inputName === 'lname'){
+
+        }
+        if(inputName === 'email'){
+
+        }
+        if(inputName === 'mobile'){
+            
+        }
     }
 
     render() {
