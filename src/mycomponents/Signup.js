@@ -21,16 +21,27 @@ class Signup extends Component {
         });
 
         if(inputName === 'fname'){
-
+            let namePattern = /^([a-zA-Z ]){2,30}$/;
+            if(!namePattern.test(inputValue)){
+                this.setState({fname: "First Name is not valid"});
+            }
         }
         if(inputName === 'lname'){
-
+            let namePattern = /^([a-zA-Z ]){2,30}$/;
+            if(!namePattern.test(inputValue)){
+                this.setState({lname: "Last Name is not valid"});
+            }
         }
         if(inputName === 'email'){
-
+            let emailPattern = /\S+@\S+\.\S+/;
+            if(!emailPattern.test(inputValue)){
+                this.setState({email: "Email is not valid"});
+            }
         }
         if(inputName === 'mobile'){
-            
+            if(!Number(inputValue)){
+                this.setState({mobile: "Mobile No is not valid"});
+            }
         }
     }
 
