@@ -12,6 +12,7 @@ import Form from './mycomponents/Form';
 import Signup from './mycomponents/Signup';
 import Text from './mycomponents/Text';
 import Select from './mycomponents/Select';
+import List from './mycomponents/List';
 
 function App() {
   return (
@@ -61,6 +62,7 @@ function App() {
          <Signup/>
          <Text/>
          <Select/>
+         <List/>
 
 
       </header>
