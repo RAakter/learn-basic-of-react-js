@@ -10,6 +10,7 @@ import Newdemo from './mycomponents/Newdemo';
 import Anotherdemo from './mycomponents/Anotherdemo';
 import Form from './mycomponents/Form';
 import Signup from './mycomponents/Signup';
+import Text from './mycomponents/Text';
 
 function App() {
   return (
@@ -57,6 +58,7 @@ function App() {
          <Form/>
 
          <Signup/>
+         <Text/>
 
       </header>
     </div>
